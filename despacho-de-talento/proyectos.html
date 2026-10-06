@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Proyectos · Despacho de Talento · ROOC</title>
+<!-- ROOC · Despacho de Talento · bloque "Proyectos" para Wix (Agregar > Insertar código > Insertar HTML > Código). Alto recomendado: ver Guía Wix. -->
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--slate:#577C8E;--blue:#2B7CA4;--blue-light:#81ADD2;--blue-bright:#0096D1;--teal:#3EBDC6;--burgundy:#83344A;--cream:#F4EFEB;--ink:#2A3942;--ink2:#3A4A52;--line:#D6DEE3;--display:'League Spartan',system-ui,sans-serif;--sans:'Manrope',system-ui,-apple-system,'Segoe UI',sans-serif}
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;height:100%}
+body{background:var(--fondo);color:var(--ink);font-family:var(--sans);display:flex;flex-direction:column;justify-content:center;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+#bloque{position:relative;width:100%;max-width:1168px;margin:0 auto;padding:var(--pt,80px) 24px var(--pb,80px)}
+p{margin:0}
+a{color:var(--blue-bright);text-decoration:none}a:hover{color:var(--blue);text-decoration:underline}
+.eyebrow{margin:0 0 16px;font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--blue)}
+.h2{margin:0;font-family:var(--display);font-weight:400;font-size:clamp(30px,4vw,46px);line-height:1.1;letter-spacing:-.01em;text-wrap:balance}
+.h3{margin:0;font-family:var(--display);font-weight:400;font-size:24px;line-height:1.15}
+.lead{font-size:17px;line-height:1.6;color:var(--ink2);text-wrap:pretty}
+.cab{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:20px 64px;align-items:end;margin-bottom:40px}
+.label{font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--slate)}
+@media (max-width:600px){#bloque{padding:var(--ptm,56px) 20px var(--pbm,56px)}.cab{margin-bottom:28px}}
+
+:root{--fondo:#F4EFEB;}
+
+.lay{display:flex;flex-wrap:wrap;gap:24px 40px;align-items:flex-start}
+.tabs{flex:1 1 220px;max-width:100%;display:flex;flex-direction:column;gap:6px}
+.tab{font:inherit;text-align:left;cursor:pointer;border:0;border-radius:14px;padding:14px 18px;display:flex;justify-content:space-between;align-items:baseline;gap:12px;background:transparent;color:var(--ink);transition:background 220ms cubic-bezier(.22,1,.36,1),color 220ms,transform 120ms}
+.tab:hover{background:#EAE3DD}
+.tab:active{transform:scale(.98)}
+.tab:focus-visible{outline:none;box-shadow:0 0 0 3px rgba(0,150,209,.35)}
+.tab[aria-selected="true"]{background:var(--blue);color:#fff}
+.tn{font-family:var(--display);font-size:20px;line-height:1.2}
+.tc{flex:none;font-size:13px;opacity:.85}
+.panels{flex:999 1 560px;min-width:0;display:grid}
+.panel{grid-area:1/1;align-self:start;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,240px),1fr));gap:12px;visibility:hidden}
+.panel.activo{visibility:visible}
+.panel:not(.activo) .pila > div{visibility:hidden !important}
+@media (max-width:600px){.tabs{flex-direction:row;flex-wrap:wrap}.tab{padding:10px 14px}.tn{font-size:17px}}
+.pr{font:inherit;color:inherit;text-align:left;cursor:pointer;background:#fff;border:1px solid #E6EBEE;border-radius:20px;padding:20px 22px;display:flex;flex-direction:column;gap:10px;transition:box-shadow 220ms cubic-bezier(.22,1,.36,1),border-color 220ms,transform 120ms}
+.pr:hover{box-shadow:0 6px 20px rgba(87,124,142,.14)}
+.pr:active{transform:scale(.98)}
+.pr:focus-visible{outline:none;box-shadow:0 0 0 3px rgba(0,150,209,.35)}
+.pr[aria-expanded="true"]{border-color:var(--blue-light)}
+.fila{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+.nom{font-size:17px;font-weight:600;line-height:1.3}
+.sig{flex:none;width:28px;height:28px;border-radius:999px;background:var(--cream);color:var(--blue);display:grid;place-items:center;font-size:18px;line-height:1;transition:transform 220ms cubic-bezier(.22,1,.36,1)}
+.pr[aria-expanded="true"] .sig{transform:rotate(45deg)}
+.pila{display:grid;border-top:1px solid var(--line);padding-top:12px}
+.pila > div{grid-area:1/1;display:flex;flex-direction:column;gap:6px;transition:opacity 220ms}
+.pila p{font-size:15px;line-height:1.5;color:var(--ink2)}
+.pila .b{opacity:0;visibility:hidden}
+.pr[aria-expanded="true"] .a{opacity:0;visibility:hidden}
+.pr[aria-expanded="true"] .b{opacity:1;visibility:visible}
+.pr[aria-expanded="true"] .b p{color:var(--ink)}
+</style>
+</head>
+<body>
+<div id="bloque">
+<div class="cab"><div><h2 class="h2">Proyectos para construir tu área de talento</h2></div><p class="lead">Estos son algunos ejemplos. Cada año elegimos contigo los proyectos a partir del diagnóstico y de hacia dónde va tu empresa.</p></div>
+<div class="lay">
+  <div class="tabs" role="tablist" aria-label="Áreas">
+    <button type="button" class="tab" role="tab" aria-selected="true" data-i="0"><span class="tn">Bases y orden</span><span class="tc">4</span></button>
+    <button type="button" class="tab" role="tab" aria-selected="false" data-i="1"><span class="tn">Atraer y retener</span><span class="tc">4</span></button>
+    <button type="button" class="tab" role="tab" aria-selected="false" data-i="2"><span class="tn">Desarrollar</span><span class="tc">5</span></button>
+    <button type="button" class="tab" role="tab" aria-selected="false" data-i="3"><span class="tn">Cultura y liderazgo</span><span class="tc">2</span></button>
+    <button type="button" class="tab" role="tab" aria-selected="false" data-i="4"><span class="tn">Mediciones</span><span class="tc">2</span></button>
+    <button type="button" class="tab" role="tab" aria-selected="false" data-i="5"><span class="tn">Crecer el área</span><span class="tc">1</span></button>
+  </div>
+  <div class="panels">
+    <div class="panel activo" role="tabpanel">
+      <button type="button" class="pr" aria-expanded="false"><span class="fila"><span class="nom">Organigrama y perfiles de puesto</span><span class="sig" aria-hidden="true">+</span></span><span class="pila"><div class="a"><span class="label">Qué resuelve</span><p>Nadie tiene del todo claro qué le toca a quién</p></div><div class="b"><span class="label">Qué te llevas</span><p>Organigrama y perfil de cada puesto con funciones, responsabilidades y requisitos</p></div></span></button>
+      <button type="button" class="pr" aria-expanded="false"><span class="fila"><span class="nom">Reglamento interior y políticas básicas</span><span class="sig" aria-hidden="true">+</span></span><span class="pila"><div class="a"><span class="label">Qué resuelve</span><p>Las reglas cambian según quién pregunte</p></div><div class="b"><span class="label">Qué te llevas</span><p>Reglamento y políticas de asistencia, vacaciones y conducta, listos para revisión legal</p></div></span></button>
+      <button type="button" class="pr" aria-expanded="false"><span class="fila"><span class="nom">Cumplimiento de la NOM-035</span><span class="sig" aria-hidden="true">+</span></span><span class="pila"><div class="a"><span class="label">Qué resuelve</span><p>La obligación está pendiente y no sabes cómo está tu gente</p></div><div class="b"><span class="label">Qué te llevas</span><p>Política de prevención, guías aplicadas según tu tamaño, mecanismo de quejas y resultados que alimentan el diagnóstico</p></div></span></button>
+      <button type="button" class="pr" aria-expanded="false"><span class="fila"><span class="nom">Transición a la jornada de 40 horas</span><span class="sig" aria-hidden="true">+</span></span><span class="pila"><div class="a"><span class="label">Qué resuelve</span><p>La jornada baja a 46 horas en 2027 y a 40 en 2030, con registro electrónico obligatorio</p></div><div class="b"><span class="label">Qué te llevas</span><p>Plan de turnos, juntas y cargas para sostener la operación con menos horas, y comunicación del cambio al equipo</p></div></span></button>
+    </div>
+    <div class="panel" role="tabpanel">
+      <button type="button" class="pr" aria-expanded="false"><span class="fila"><span class="nom">Reclutamiento y selección</span><span class="sig" aria-hidden="true">+</span></span><span class="pila"><div class="a"><span class="label">Qué resuelve</span><p>Contratas con prisa y a los meses ves que no era la persona</p></div><div class="b"><span class="label">Qué te llevas</span><p>Proceso paso a paso, guías de entrevista por competencias y criterios para decidir</p></div></span></button>
+      <button type="button" class="pr" aria-expanded="false"><span class="fila"><span class="nom">Onboarding y offboarding</span><span class="sig" aria-hidden="true">+</span></span><span class="pila"><div class="a"><span class="label">Qué resuelve</span><p>La gente nueva se va en los primeros meses</p></div><div class="b"><span class="label">Qué te llevas</span><p>Ruta de integración de los primeros 90 días y proceso de salida con entrevista</p></div></span></button>
+      <button type="button" class="pr" aria-expanded="false"><span class="fila"><span class="nom">Salario emocional</span><span class="sig" aria-hidden="true">+</span></span><span class="pila"><div class="a"><span class="label">Qué resuelve</span><p>No puedes competir solo con sueldo</p></div><div class="b"><span class="label">Qué te llevas</span><p>Mapa de lo que ya ofreces, qué valora tu gente y cómo comunicarlo</p></div></span></button>
+      <button type="button" class="pr" aria-expanded="false"><span class="fila"><span class="nom">Marca empleadora</span><span class="sig" aria-hidden="true">+</span></span><span class="pila"><div class="a"><span class="label">Qué resuelve</span><p>Te cuesta atraer candidatos</p></div><div class="b"><span class="label">Qué te llevas</span><p>Mensajes, canales y experiencia del candidato desde la vacante hasta su primer día</p></div></span></button>
+    </div>
+    <div class="panel" role="tabpanel">
+      <button type="button" class="pr" aria-expanded="false"><span class="fila"><span class="nom">Evaluación del desempeño</span><span class="sig" aria-hidden="true">+</span></span><span class="pila"><div class="a"><span class="label">Qué resuelve</span><p>No hay una forma clara de reconocer ni de corregir</p></div><div class="b"><span class="label">Qué te llevas</span><p>Sistema sencillo de objetivos y conversaciones de seguimiento, con formatos y capacitación para líderes</p></div></span></button>
+      <button type="button" class="pr" aria-expanded="false"><span class="fila"><span class="nom">Diccionario de competencias</span><span class="sig" aria-hidden="true">+</span></span><span class="pila"><div class="a"><span class="label">Qué resuelve</span><p>Cada líder evalúa con su propio criterio</p></div><div class="b"><span class="label">Qué te llevas</span><p>Competencias por nivel y puesto, descritas en conductas observables</p></div></span></button>
+      <button type="button" class="pr" aria-expanded="false"><span class="fila"><span class="nom">Conversaciones 1:1 (Rescate del Talento)</span><span class="sig" aria-hidden="true">+</span></span><span class="pila"><div class="a"><span class="label">Qué resuelve</span><p>Los líderes hablan con su gente solo cuando algo sale mal</p></div><div class="b"><span class="label">Qué te llevas</span><p>Formato de 1:1 mensual y guía para líderes con nuestra metodología Rescate del Talento</p></div></span></button>
+      <button type="button" class="pr" aria-expanded="false"><span class="fila"><span class="nom">Plan anual de capacitación</span><span class="sig" aria-hidden="true">+</span></span><span class="pila"><div class="a"><span class="label">Qué resuelve</span><p>Se capacita por ocurrencia</p></div><div class="b"><span class="label">Qué te llevas</span><p>Detección de necesidades y calendario del año; en empresas de más de 50 personas, apoyo a la Comisión Mixta de Capacitación</p></div></span></button>
+      <button type="button" class="pr" aria-expanded="false"><span class="fila"><span class="nom">Planes de carrera y sucesión</span><span class="sig" aria-hidden="true">+</span></span><span class="pila"><div class="a"><span class="label">Qué resuelve</span><p>Tu gente no ve hacia dónde crecer</p></div><div class="b"><span class="label">Qué te llevas</span><p>Rutas de crecimiento para los puestos que más importan y reemplazos identificados</p></div></span></button>
+    </div>
+    <div class="panel" role="tabpanel">
+      <button type="button" class="pr" aria-expanded="false"><span class="fila"><span class="nom">Declaración de cultura</span><span class="sig" aria-hidden="true">+</span></span><span class="pila"><div class="a"><span class="label">Qué resuelve</span><p>Los valores están en papel y cada quien los interpreta distinto</p></div><div class="b"><span class="label">Qué te llevas</span><p>Valores traducidos a conductas concretas y a prácticas del día a día</p></div></span></button>
+      <button type="button" class="pr" aria-expanded="false"><span class="fila"><span class="nom">Modelo de liderazgo</span><span class="sig" aria-hidden="true">+</span></span><span class="pila"><div class="a"><span class="label">Qué resuelve</span><p>Cada líder dirige a su manera</p></div><div class="b"><span class="label">Qué te llevas</span><p>Lo que se espera de un líder en tu empresa, por nivel, y cómo desarrollarlo</p></div></span></button>
+    </div>
+    <div class="panel" role="tabpanel">
+      <button type="button" class="pr" aria-expanded="false"><span class="fila"><span class="nom">Encuesta de clima laboral</span><span class="sig" aria-hidden="true">+</span></span><span class="pila"><div class="a"><span class="label">Qué resuelve</span><p>Algo no anda bien y no sabes qué ni dónde</p></div><div class="b"><span class="label">Qué te llevas</span><p>Resultados por área y plan de acción</p></div></span></button>
+      <button type="button" class="pr" aria-expanded="false"><span class="fila"><span class="nom">Evaluación de liderazgo 360</span><span class="sig" aria-hidden="true">+</span></span><span class="pila"><div class="a"><span class="label">Qué resuelve</span><p>Tus líderes no saben cómo los ven su equipo, sus pares y su jefe</p></div><div class="b"><span class="label">Qué te llevas</span><p>Reporte por líder y plan de desarrollo</p></div></span></button>
+    </div>
+    <div class="panel" role="tabpanel">
+      <button type="button" class="pr" aria-expanded="false"><span class="fila"><span class="nom">Tu primera persona de RH</span><span class="sig" aria-hidden="true">+</span></span><span class="pila"><div class="a"><span class="label">Qué resuelve</span><p>Llegó el momento de tener a alguien interno</p></div><div class="b"><span class="label">Qué te llevas</span><p>Perfil del puesto, apoyo en la selección, integración y plan de sus primeros 6 meses</p></div></span></button>
+    </div>
+  </div>
+</div>
+</div>
+<script>
+var tabs=document.querySelectorAll('.tab'),panels=document.querySelectorAll('.panel');
+tabs.forEach(function(t){t.addEventListener('click',function(){var i=+t.dataset.i;tabs.forEach(function(x,j){x.setAttribute('aria-selected',j===i?'true':'false');});panels.forEach(function(p,j){p.classList.toggle('activo',j===i);});});});
+document.querySelectorAll('.pr').forEach(function(b){b.addEventListener('click',function(){b.setAttribute('aria-expanded',b.getAttribute('aria-expanded')==='true'?'false':'true');});});
+</script>
+</body>
+</html>
